@@ -1,6 +1,6 @@
+//https://pan.xhto.cn/特效代码/背景特效%20-%20彩带飘落.zip
 const confettiShower = [];
 const numConfettis = 200;
-// const container = document.getElementById("xuna");
 const body = document.getElementsByTagName("body")[0];
 body.innerHTML += "<div id='xuna'></div>"
 const container = document.getElementById("xuna");
