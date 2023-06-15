@@ -1,4 +1,4 @@
-var message_ip;
+(function (){var message_ip;
         var httpRequest = new XMLHttpRequest(); //第一步：建立所需的对象
         httpRequest.open('GET', 'https://api-cf.nn.ci/ip', true); //第二步：打开连接  将请求参数写在url中  ps:"http://localhost:8080/rest/xxx"
         httpRequest.send(); //第三步：发送请求  将请求参数写在URL中
@@ -35,3 +35,4 @@ var message_ip;
                 geographyText.innerHTML += "<span> ISP: " + message.isp + "</span>";
             }
         }
+            } )()
