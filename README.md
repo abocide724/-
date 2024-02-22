@@ -5,7 +5,7 @@
 4. ip地理信息: https://cdn.jsdelivr.net/gh/abocide724/Code@b3960783be0de588d47ff0a627da99559a92cab7/ip_geographyText.js
 6. 自动拼音输入文本：https://cdn.jsdelivr.net/gh/shenlan823/Code@main/typinyin/js/typinyin.js
 ```js
-<!--<script src="typinyin.js"></script>-->
+<script src="typinyin.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/shenlan823/Code@main/typinyin/js/typinyin.js"></script>
 <script>
 	window.onload = function(){
